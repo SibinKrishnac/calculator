@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+
+<body class="body">
+    <div class="row">
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4">
+            <div class="boxi">
+                <div>
+                    <input type="text" class="disp">
+                </div>
+                <div class="keys">
+                    <p><input type="button" class="button" value="7" onclick="dispBox('7')">
+                        <input type="button" class="button black" value="8" onclick="dispBox('8')">
+                        <input type="button" class="button black" value="9" onclick="dispBox('9')">
+                        <input type="button" class="button pi" value="/" onclick="dispBox('/')">
+
+                        </input>
+                    </p>
+
+                    <p><input type="button" class="button" value="4" onclick="dispBox('4')">
+                        <input type="button" class="button black" value="5" onclick="dispBox('5')">
+                        <input type="button" class="button black" value="6" onclick="dispBox('6')">
+                        <input type="button" class="button pi" value="*" onclick="dispBox('*')">
+
+                        </input>
+                    </p>
+
+                    <p><input type="button" class="button" value="1" onclick="dispBox('1')">
+                        <input type="button" class="button black" value="2" onclick="dispBox('2')">
+                        <input type="button" class="button black" value="3" onclick="dispBox('3')">
+                        <input type="button" class="button pi" value="-" onclick="dispBox('-')">
+
+                        </input>
+                    </p>
+
+                    <p><input type="button" class="button" value="." onclick="dispBox('.')">
+                        <input type="button" class="button" value="0" onclick="dispBox('0')">
+                        <input type="button" class="button pi" value="+" onclick="dispBox('+')">
+                        <input type="button" class="button zero" value="=" onclick="print()">
+                        </input>
+                    </p>
+        
+                    <P><input type="button" class="button" value="(" onclick="dispBox('')">
+                        <input type="button" class="button" value=")" onclick="dispBox('')">
+                        <input type="button" class="button " value="clear" onclick="clr()">
+                        <input type="button" class="button" value="DEL" onclick="del()">
+                        </input>
+                    </P>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4"></div>
+
+
+    </div>
+</body>
+
+</html>

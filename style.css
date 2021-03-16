@@ -1,0 +1,39 @@
+.body{
+background-color:#8a8887;
+}
+.boxi{
+    position: relative;
+    top: 50px;
+    height: 470px;
+    width: 350px;
+    background-color: #3b3b3b;
+    border-radius: 15px;
+}
+.disp{
+    position: relative;
+    top: 25px;
+    left: 25px;
+    width: 300px; 
+    height:40px;
+    border: none;
+    border-radius: 8px;
+}
+.keys{
+    position: relative;
+    top: 50px;
+}
+.button{
+    position: relative;
+    left: 15px;
+    width:50px;  
+    height:50px;  
+    border:none;  
+    border-radius:50px;  
+    margin-left:25px;    
+}
+.zero{
+    background-color:#fcbc19;
+}
+.pi{
+    background-color: #0b67b3;
+}
